@@ -1,0 +1,68 @@
+#bannerContainer {
+    width: 778px;
+    height: 257px;
+    border: 1px solid #000;
+    position:relative;
+}
+#bannerContainer .ul, #bannerContainer .ul li
+{
+    padding:0px;
+    margin:0px;
+    list-style-type:none;
+}
+#bannerContainer .ul li
+{
+    position:absolute;
+    display:none;
+}
+.nav
+{
+    background-color:#fff;
+    border:2px solid #dedede;
+    border-radius:30px;
+    width:30px;
+    height:30px;
+    display:block;
+    position:absolute;
+    z-index:9999;
+    top:50%;
+    margin-top:-15px;
+    font:bold 9px verdana;
+    color:#333;
+    text-decoration:none;
+    text-transform:uppercase;
+    text-align:center;
+    vertical-align:middle;
+    opacity:0.8;
+}
+.nav.left{
+    left:10px;
+}
+.nav.right{
+    right:10px;
+}
+
+
+.sliderName{
+    position:absolute;
+    z-index:9999;
+    padding:0px;
+    margin:0px;
+    bottom:0px;
+    list-style-type:none;	
+    background-color:#808080;
+    width:100%;                
+}
+.sliderName>li {
+    float:left;                
+    background-color:#808080;
+    border-right:1px solid #666;
+    padding:5px 20px;
+    font:bold 11px verdana;
+    color:#fff;
+    cursor:pointer;
+}
+.sliderName .active {	
+    background-color:#fff;
+    color:#333;	
+}
